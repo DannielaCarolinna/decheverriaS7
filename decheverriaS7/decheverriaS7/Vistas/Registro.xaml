@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="decheverriaS7.Vistas.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registro" FontSize="18" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el Nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario"/>
+            <Entry x:Name="txtConstrasena" Placeholder="Ingrese la Contrasena"/>
+            <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnIngresar_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

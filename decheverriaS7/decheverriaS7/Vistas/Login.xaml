@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="decheverriaS7.Vistas.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ventana Login" FontSize="18" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="TxtUsuario" Placeholder="Ingrese Usuario"/>
+            <Entry x:Name="TxtContrasena" Placeholder="Ingrese Contrasena" IsPassword="True"/>
+            <Button x:Name="btnInicio" Text="Iniciar Sesion" Clicked="btnInicio_Clicked"/>
+            <Button x:Name="btnRegistro" Text="Registro" Clicked="btnRegistro_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
